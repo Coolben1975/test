@@ -1,0 +1,110 @@
+
+.b-product { 
+    padding-top: 65px;
+    border: 1px solid #EAEAEA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: white;
+
+    @media (min-width: 1600px) {
+        margin-top: -64px;
+        position: relative;
+    }
+
+    .collection_header_top {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: #F16D7F;
+    }
+    
+    .collection_line {
+        border-top: 3px solid #EF5B70;
+        width: 63px;
+        margin: 12px 0;
+    }
+
+    .collection_header_bottom {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        color: #4D4D4D;
+    }
+
+    .collection_text {
+        max-width: 326px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 143.1%;
+        color: #5E5E5E;
+        text-align: center;
+        margin: 32px 0;
+
+        @media (min-width: 768px) {
+            max-width: 555px;
+            margin: 48px 0 32px;
+        }
+    }
+    
+    .collection_price {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 130%;
+        color: #EF5B70;
+    }
+
+    .collection_line_2 {
+        border-top: 1px solid #EAEAEA;
+        width: 175px;
+        margin: 32px 0 50px;
+
+        @media (min-width: 768px) {
+            width: 642px;
+            margin: 64px 0;
+        }
+    }
+
+    .collection_filter {
+        margin-left: 0;
+    }
+
+    @media (min-width: 768px) {
+        .collection_filter div {
+            font-size: 14px;
+            line-height: 17px;
+        }
+    }
+
+    .collection_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #FF6A6A;
+        width: 211px;
+        height: 47px;
+        margin: 63px 0 66px;
+        font-size: 16px;
+        line-height: 19px;
+        color: #F26376;
+
+        @media (min-width: 768px) {
+            margin: 48px 0 64px;
+        }
+
+        img {
+            padding-right: 23px;
+            width: 26px;
+            height: 24px;
+        }
+    }
+}
+
+.product_futured {
+    margin-top: 64px;
+
+    @media (min-width: 768px) {
+        margin-top: 128px;
+    }
+}
